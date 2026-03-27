@@ -1,7 +1,8 @@
 <script lang="ts">
 	import Header from './Header.svelte';
 	import './layout.css';
-
+	import '@fontsource-variable/chivo-mono';
+	import '@fontsource/lexend';
 	let { children } = $props();
 </script>
 
@@ -13,9 +14,6 @@
 	</main>
 
 	<footer>
-		<p>
-			visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to learn about SvelteKit
-		</p>
 	</footer>
 </div>
 

@@ -8,5 +8,5 @@
 </svelte:head>
 
 <div class="text-column">
-	<h1>About</h1>
+	<h1>News</h1>
 </div>
