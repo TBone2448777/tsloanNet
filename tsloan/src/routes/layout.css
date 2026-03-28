@@ -5,7 +5,7 @@
 	--font-mono: 'Fira Mono', monospace;
 	--color-bg-1: hsl(0, 0%, 5%);
 	--color-theme-1: #4c32f6;
-	--color-theme-2: #4075a6;
+	--color-theme-2: rgb(206, 206, 225);
 	--color-text: rgb(206, 206, 225);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;

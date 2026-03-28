@@ -7,14 +7,16 @@
 </script>
 
 <div class="app">
-	<Header />
+	<div class="fullContainer">
+		<Header />
 
-	<main>
-		{@render children()}
-	</main>
+		<main>
+			{@render children()}
+		</main>
 
-	<footer>
-	</footer>
+		<footer>
+		</footer>
+	</div>
 </div>
 
 <style>
@@ -22,6 +24,10 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
+		align-items: center;
+		.fullContainer {
+			width: 95%;
+		}
 	}
 
 	main {
