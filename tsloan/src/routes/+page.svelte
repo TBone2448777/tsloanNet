@@ -4,21 +4,14 @@
 </svelte:head>
 
 <section>
-	<h1>Home</h1>
-	<!-- <h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcomeFallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2> -->
+	<h1>Welcome!</h1>
+	<p>
+		My name is Taylor Sloan. I created this website for two reasons:
+	</p>
+	<ol>
+		<li>Serving as my form of social media to keep in touch with friends and family (News)</li>
+		<li>Creating tutorials and guides for a variety of reasons that I can send to friends and family (Learn)</li>
+	</ol>
 </section>
 
 <style>
@@ -26,27 +19,15 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: center;
 		flex: 0.6;
+		width: 100%;
 	}
 
 	h1 {
 		width: 100%;
 	}
 
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
+	p, ol {
+		margin: 0.4em;
 	}
 </style>
