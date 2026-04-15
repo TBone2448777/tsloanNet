@@ -10,7 +10,7 @@
 <div class="text-column">
 	<h1>Code Poems</h1>
 	<p><a href="documents/codepoems.pdf">Link to pdf of project</a></p>
-	<p><a href="documents/englishSymposium.pptx">Link to presentation</a> <a href="documents/englishSymposium.pdf">(PDF)</a></p>
+	<p><a href="https://docs.google.com/presentation/d/1nDWouEoPikYHQBworpjUYl-B7ged7DAjJNYDb3sbyqQ/edit?usp=sharing">Link to presentation</a></p>
 </div>
 
 <style>
